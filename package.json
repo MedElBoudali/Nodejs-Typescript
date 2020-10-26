@@ -1,8 +1,16 @@
 {
   "name": "express-with-typescript",
   "version": "1.0.0",
-  "main": "App.ts",
+  "main": "app.ts",
   "repository": "https://github.com/MedElBoudali/Nodejs-Typescript.git",
   "author": "Med",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {"start": "nodemon dist/app.js"},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.3"
+  }
 }
