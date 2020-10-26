@@ -1,0 +1,8 @@
+{
+  "name": "express-with-typescript",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "repository": "https://github.com/MedElBoudali/Nodejs-Typescript.git",
+  "author": "Med",
+  "license": "MIT"
+}
