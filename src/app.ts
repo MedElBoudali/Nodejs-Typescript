@@ -2,6 +2,8 @@ import express, { Request, Response, NextFunction } from 'express';
 import todosRoutes from './routes/todos';
 const app = express();
 
+app.use(express.json());
+
 app.use('/todos', todosRoutes);
 
 app.use((err: Error, _: Request, res: Response, next: NextFunction) => {
